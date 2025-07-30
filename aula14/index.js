@@ -20,6 +20,6 @@ console.log(Number.isInteger(num1));
 // console.log(num1.toString(2)); versão binária
 // console.log(num1.toFixed(2)); abreviando para casas décimais 
 // console.log(Number.isInteger(num1)); pergunta se o numero é inteiro e responde com true ou false
-// console.log(Number.isNaN(temp)); 
+// console.log(Number.isNaN(temp)); pergunta se a variavel temp é um numero ou nao
 // let temp = num1 + '5';
 // console.log(temp);
