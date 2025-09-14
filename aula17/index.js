@@ -27,5 +27,5 @@ console.log(raiz(36));
 // const variavel = saudacao('Rodrigo');
 // console.log(variavel);
 
-// // saudacao('Rodrigo');
-// // saudacao('Laryssa');
+// saudacao('Rodrigo');
+// saudacao('Laryssa');
