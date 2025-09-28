@@ -13,5 +13,5 @@ Operadores lógicos
 // const vaiLogar = usuario === 'Rodrigo' && senha === '12345';
 // console.log(vaiLogar);
 
-console.log(!true);
+console.log(!true); 
 
