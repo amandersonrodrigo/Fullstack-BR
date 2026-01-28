@@ -7,12 +7,12 @@ const elementos = [
 
 const container = document.querySelector(".container");
 const div = document.createElement("div");
-container.appendChild(div);
 
 for (item of elementos) {
     const {tag, texto} = item;
     const elemento = document.createElement(tag);
-
     elemento.innerText = texto;
     div.appendChild(elemento);
 }
+
+container.appendChild(div);
