@@ -1,21 +1,14 @@
-// Filter, map, reduce
+// Filter -> Sempre vai retornar um array, com a mesma quantidade de elementos ou menos.
 
 // Retorne os números maiores que 10
 const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27];
 
+// const numerosFiltrados = numeros.filter(valor => {
+//    return valor > 10;
+// });
+const numerosFiltrados = numeros.filter(valor =>  valor > 10);
 
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(numerosFiltrados);
 
 
 // Retorne as pessoas que tem o nome com 5 letras ou mais
@@ -29,3 +22,14 @@ const pessoas = [
    { nome: 'Rosana', idade: 32 },
    { nome: 'Wallace', idade: 47 },
 ];
+
+const pessoasComNomeGrande = pessoas.filter((obj) => obj.nome.length >= 5);
+console.log(pessoasComNomeGrande);
+
+const pessoasComMaisDe50 = pessoas.filter((obj) => obj.idade > 50);
+console.log(pessoasComMaisDe50);
+
+const nomeTerminaComA = pessoas.filter((obj) => obj.nome.toLowerCase().endsWith('a'));
+console.log(nomeTerminaComA);
+
+
